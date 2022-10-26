@@ -1,0 +1,11 @@
+.Pet .table-data__cell:last-of-type {
+  border-left: 2px solid #dcdfe1;
+}
+
+.Pet .table-data__body .table-data__cell:last-of-type {
+  background-color: #f3f4f5;
+}
+
+.Pet .table-data__body .table-data__row:hover .table-data__cell:last-of-type {
+  background-color: #e8eaec;
+}

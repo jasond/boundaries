@@ -1,0 +1,14 @@
+{
+  "pets": [
+    { "name": "Pistol", "owner": "Johnny Depp", "species": "Dog" },
+    { "name": "Milky",  "owner": "Miley Cyrus" },
+    { "name": "Smoke",  "owner": "Channing Tatum" },
+    { "name": "Max",    "owner": "George Clooney" },
+    { "name": "Choupette met een hele lange achternaam", "owner": "Karl Lagerfeld" }
+  ],
+  "species": [
+    { "name": "Cat", "emoji": "🐈" },
+    { "name": "Dog", "emoji": "🐩" }
+  ]
+}
+

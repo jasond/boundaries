@@ -1,0 +1,7 @@
+{
+  "AUTHENTICATION_AUTHORITY": "https://oauth.login.host",
+  "AUTHENTICATION_WEB_CLIENT_ID": "boundaries-web",
+  "AUTHENTICATION_BFF_CLIENT_ID": "boundaries-web-bff",
+  "BFF_BASE_URL": "http://localhost:5000/bff",
+  "BASE_URL": "http://localhost:3000"
+}

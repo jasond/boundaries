@@ -1,0 +1,49 @@
+{
+  "name": "boundaries-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cross-fetch": "3.1.5",
+    "prop-types": "15.8.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "5.0.1",
+    "router5": "8.0.1",
+    "router5-plugin-browser": "8.0.1"
+  },
+  "scripts": {
+    "start": "REACT_APP_INTEGRATION_TYPE=Memory REACT_APP_ENVIRONMENT=local react-scripts start",
+    "start-local": "REACT_APP_INTEGRATION_TYPE=Memory REACT_APP_ENVIRONMENT=local react-scripts start",
+    "start-development": "REACT_APP_INTEGRATION_TYPE=Http REACT_APP_ENVIRONMENT=development react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "jest": "25.5.4"
+  },
+  "XdevDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.21.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.3.0",
+    "stylelint": "^9.5.0",
+    "stylelint-config-standard": "^18.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
